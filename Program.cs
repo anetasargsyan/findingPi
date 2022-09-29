@@ -48,9 +48,13 @@ namespace FindingPi
                 }
 
                 Console.WriteLine($"Pi: {Pi(pointCount, cornerPoints.Count)}");
+
                 Console.WriteLine("\nPress any key to continue...");
                 Console.WriteLine("or Escape to close. \n");
-                
+
+                planePoints = null;
+                cornerPoints = null;
+               
                 if (Console.ReadKey(true).Key == ConsoleKey.Escape)
                 {
                     break;
@@ -93,6 +97,7 @@ namespace FindingPi
             return Math.Abs(distance);
         }
 
+        
         public override string ToString()
         {
             return $"{x}, {y}";
