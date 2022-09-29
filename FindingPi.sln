@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiningPi", "FiningPi.csproj", "{7713D1DD-17DE-4E44-A0A5-028ACCE09B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7713D1DD-17DE-4E44-A0A5-028ACCE09B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7713D1DD-17DE-4E44-A0A5-028ACCE09B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7713D1DD-17DE-4E44-A0A5-028ACCE09B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7713D1DD-17DE-4E44-A0A5-028ACCE09B67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB8F538-978F-44EB-BEF8-3B48CB0688F2}
+	EndGlobalSection
+EndGlobal
